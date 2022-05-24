@@ -1,0 +1,3 @@
+aws cloudformation create-stack  --stack-name myThirdStack --region us-east-1 --template-body file://security_group.yml
+
+aws cloudformation create-stack  --stack-name challenge1 --region us-east-1 --template-body file://security_group.yml --parameters file://parameters.json
